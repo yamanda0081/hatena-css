@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!-- saved from url=(0145)https://s0.2mdn.net/ads/richmedia/studio/pv2/37185389/20151005155013793/index.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=mJ5M2NGh97&t=1 -->
+<html lang="en" class="wf-roboto-n3-active wf-roboto-n7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Google Tangram</title>
+	<script src="./webfont.js.ダウンロード"></script>
+	<link rel="stylesheet" href="./css"><script>
+		WebFont.load({
+			google: {
+				families: ["Roboto:300,700"]
+			}
+		});
+	</script>
+
+	<style type="text/css">
+		html {
+ 			-webkit-font-smoothing: antialiased;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		@media
+		only screen and (-webkit-min-device-pixel-ratio: 1.25),
+		only screen and ( min-device-pixel-ratio: 1.25),
+		only screen and ( min-resolution: 200dpi),
+		only screen and ( min-resolution: 1.25dppx)
+		{
+		   -webkit-font-smoothing: subpixel-antialiased;
+		}
+
+		div {
+			margin: 0;
+			padding: 0;
+			position: absolute;
+		}
+
+		#mainHolder {
+			border: 1px solid #000000;
+			width: 336px;
+			height: 280px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			background: #ffffff;
+			cursor: pointer;
+			overflow: hidden;
+		    -webkit-touch-callout: none;
+		    -webkit-user-select: none;
+		    -khtml-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		}
+
+		#endBG {
+			width: 336px;
+			height: 280px;
+			background: #d94236;
+			opacity: 0;
+		}
+
+		.copyTextStart {
+			left: 18px;
+			opacity: 1;
+			color: #777777;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 300;
+			font-size: 22px;
+			width: 330px;
+		}
+
+		.copyTextEnd {
+			opacity: 0;
+			left: 18px;
+			color: #ffffff;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 300;
+			font-size: 22px;
+			width: 330px;
+		}
+
+		.copyTextCTA {
+			opacity: 0;
+			color: #5383d3;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 700;
+			font-size: 15px;
+			top: 11px;
+  			text-align: center;
+			position: relative;
+		}
+
+		#buttonLabelHolder {
+			left: 19px;
+		    top: 150px;
+		    width: 140px;
+		    height: 40px;
+		}
+
+		#copyA0, #copyB0, #copyC0 {
+			top: 30px;
+		}
+
+		#copyA1, #copyB1, #copyC1 {
+			top: 58px;
+		}
+
+		#copyA2, #copyB2, #copyC2 {
+			top: 86px;
+		}
+
+		#copyA0, #copyA1, #copyA2, #copyB0, #copyB1, #copyB2 {
+			opacity: 0;
+		}
+
+        #clickLayer {
+            width: 336px;
+            height: 280px;
+        }
+        
+        /* replay icon image embedded as base64 text URI */
+        #buttonReplay {
+            left: 304px;
+            top: 248px;
+            width: 32px;
+            height: 32px;
+            background-repeat: no-repeat;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAOVBMVEUAAAD///////////////////////////////////////////////////////////////////////8KOjVvAAAAEnRSTlMAp/oar5bk3cA8BOjBgIJgPTvtUe5tAAAAXElEQVQI12WOWw7AIAgEF1GrrfbB/Q/bDWmjifNDBgIsSJUcslSgU/ZkoUkLlk6jJovKotGM+liE010lqNu1EeAomDGZZJn67qD+l8H2/DcrvlRFClPtwMh8Y+UFVFgCqqTBXkEAAAAASUVORK5CYII=);
+            background-position: center center;
+            opacity: 0;
+            display: none;
+		    -ms-transform-origin: 15.5px 15.5px;
+		    -webkit-transform-origin: 15.5px 15.5px;
+		    transform-origin: 15.5px 15.5px;
+        }        
+        
+	</style>
+<link rel="stylesheet" type="text/css" href="./loadsprites_square_tiles.css"></head>
+
+<body>
+
+	<div id="mainHolder">
+		<div id="dummyDiv"></div>
+
+        <!-- Attach all icon animation sprites here -->
+		<div id="iconHolder"><div id="squarePart0" class=" square0" style="background-position: -9px -271px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 160, 115);"></div><div id="squarePart1" class=" square1" style="background-position: -49px -271px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 195, 115);"></div><div id="squarePart2" class=" square2" style="background-position: -89px -271px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 230, 115);"></div><div id="squarePart3" class=" square3" style="background-position: -129px -271px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 160, 150);"></div><div id="squarePart4" class=" square4" style="background-position: -169px -271px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 195, 150);"></div><div id="squarePart5" class=" square5" style="background-position: -9px -311px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 230, 150);"></div><div id="squarePart6" class=" square6" style="background-position: -49px -311px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 160, 185);"></div><div id="squarePart7" class=" square7" style="background-position: -89px -311px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 195, 185);"></div><div id="squarePart8" class=" square8" style="background-position: -129px -311px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 230, 185);"></div><div id="squarePart9" class=" square9" style="background-position: -169px -311px; height: 35px; width: 35px; opacity: 1; transform: matrix(1, 0, 0, 1, 160, 150);"></div></div>
+
+        <!-- Copy Text Batch 1 -->
+        <div id="copyA0" class="copyTextStart" style="font-size: 18px; opacity: 0;">ビジネスの認知度向上を</div>
+        <div id="copyA1" class="copyTextStart" style="font-size: 18px; opacity: 0;">お考えですか？</div>
+        <div id="copyA2" class="copyTextStart" style="font-size: 18px; opacity: 0;"></div>
+
+        <!-- Copy Text Batch 2 -->
+        <div id="copyB0" class="copyTextStart" style="font-size: 18px; opacity: 1;">あなたの商品が</div>
+        <div id="copyB1" class="copyTextStart" style="font-size: 18px; opacity: 1;">検索されたときに</div>
+        <div id="copyB2" class="copyTextStart" style="font-size: 18px; opacity: 1;">広告を表示しましょう。</div>
+        
+		<div id="googleLogoColored" class="logoColored" style="opacity: 1;"><img src="./logo_colored.svg"></div>
+
+		<!-- tangram flocking shapes go here -->
+		<div id="shapeHolder" style="transform: matrix(1, 0, 0, 1, 0, 0);"><div id="shape0" class="sprite parallelogram" style="transform: matrix(1, 0, 0, 1, -20, -20);"></div><div id="shape1" class="sprite triangle2" style="transform: matrix(-1, 0, 0, -1, 60, 60);"></div><div id="shape2" class="sprite triangle2" style="transform: matrix(0, 1, -1, 0, 140, -20);"></div><div id="shape3" class="sprite triangle3" style="transform: matrix(0, 1, -1, 0, 140, -20);"></div><div id="shape4" class="sprite parallelogram" style="transform: matrix(1, 0, 0, 1, 140, -20);"></div><div id="shape5" class="sprite triangle3" style="transform: matrix(1, 0, 0, 1, 140, -20);"></div><div id="shape6" class="sprite triangle1" style="transform: matrix(-1, 0, 0, -1, 300, 60);"></div><div id="shape7" class="sprite triangle2" style="transform: matrix(0, 1, -1, 0, 380, -20);"></div><div id="shape8" class="sprite triangle1" style="transform: matrix(-1, 0, 0, -1, 380, 60);"></div><div id="shape9" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 20, 20);"></div><div id="shape10" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 180, 20);"></div><div id="shape11" class="sprite triangle1" style="transform: matrix(-1, 0, 0, -1, 260, 100);"></div><div id="shape12" class="sprite parallelogram" style="transform: matrix(1, 0, 0, 1, 260, 20);"></div><div id="shape13" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 300, 20);"></div><div id="shape14" class="sprite triangle2" style="transform: matrix(1, 0, 0, 1, -20, 60);"></div><div id="shape15" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 20, 60);"></div><div id="shape16" class="sprite triangle2" style="transform: matrix(1, 0, 0, 1, 140, 60);"></div><div id="shape17" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 180, 60);"></div><div id="shape18" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 300, 60);"></div><div id="shape19" class="sprite triangle3" style="transform: matrix(0, 1, -1, 0, 380, 60);"></div><div id="shape20" class="sprite triangle1" style="transform: matrix(0, -1, 1, 0, 60, 140);"></div><div id="shape21" class="sprite triangle1" style="transform: matrix(0, -1, 1, 0, 220, 140);"></div><div id="shape22" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -20, 140);"></div><div id="shape23" class="sprite triangle3" style="transform: matrix(1, 0, 0, 1, -20, 140);"></div><div id="shape24" class="sprite triangle1" style="transform: matrix(-1, 0, 0, -1, 140, 220);"></div><div id="shape25" class="sprite triangle2" style="transform: matrix(0, 1, -1, 0, 220, 140);"></div><div id="shape26" class="sprite parallelogram" style="transform: matrix(0, -1, 1, 0, 180, 180);"></div><div id="shape27" class="sprite triangle1" style="transform: matrix(0, -1, 1, 0, 260, 180);"></div><div id="shape28" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, -20, 180);"></div><div id="shape29" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 60, 180);"></div><div id="shape30" class="sprite triangle1" style="transform: matrix(-1, 0, 0, -1, 180, 260);"></div><div id="shape31" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 180, 180);"></div><div id="shape32" class="sprite triangle1" style="transform: matrix(0, 1, -1, 0, 260, 180);"></div><div id="shape33" class="sprite parallelogram" style="transform: matrix(0, -1, 1, 0, 220, 220);"></div><div id="shape34" class="sprite triangle1" style="transform: matrix(0, -1, 1, 0, 300, 220);"></div><div id="shape35" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, -20, 220);"></div><div id="shape36" class="sprite triangle1" style="transform: matrix(0, -1, 1, 0, 20, 260);"></div><div id="shape37" class="sprite triangle3" style="transform: matrix(0, 1, -1, 0, 140, 220);"></div><div id="shape38" class="sprite parallelogram" style="transform: matrix(1, 0, 0, 1, 140, 220);"></div><div id="shape39" class="sprite diamond" style="transform: matrix(1, 0, 0, 1, 180, 220);"></div><div id="shape40" class="sprite triangle3" style="transform: matrix(1, 0, 0, 1, 220, 220);"></div><div id="shape41" class="sprite parallelogram" style="transform: matrix(0, -1, 1, 0, -20, 300);"></div><div id="shape42" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 180, 260);"></div><div id="shape43" class="sprite triangle3" style="transform: matrix(-1, 0, 0, -1, 340, 340);"></div><div id="shape44" class="sprite triangle3" style="transform: matrix(0, 1, -1, 0, 380, 220);"></div><div id="shape45" class="sprite parallelogram" style="transform: matrix(0, 1, -1, 0, 60, 300);"></div><div id="shape46" class="sprite triangle1" style="transform: matrix(0, -1, 1, 0, 20, 340);"></div><div id="shape47" class="sprite triangle1" style="transform: matrix(1, 0, 0, 1, 140, 300);"></div></div>
+
+		<!-- solid background -->
+		<div id="endBG" style="background-color: rgb(55, 131, 247); opacity: 1;"></div>
+
+        <!-- Copy Text Batch 3 -->
+		<div id="copyC0" class="copyTextEnd" style="font-size: 18px; opacity: 1;"></div>
+		<div id="copyC1" class="copyTextEnd" style="font-size: 18px; opacity: 1;">AdWords でより多くの人に</div>
+		<div id="copyC2" class="copyTextEnd" style="font-size: 18px; opacity: 1;">ビジネスを知ってもらいましょう。</div>
+
+        <!-- CTA Button -->
+		<div id="ctaParallelogram" class="sprite ctaPara" style="opacity: 0; top: 135px; left: 4px;"></div>
+		<div id="ctaTriangleLeft" class="sprite ctaTriLeft" style="opacity: 0; top: 135px; left: 4px;"></div>
+		<div id="ctaTriangleRight" class="sprite ctaTriRight" style="opacity: 0; top: 135px; left: 104px;"></div>
+		<div id="ctaRectangle" class="sprite ctaRect" style="opacity: 1;"></div>
+		<div id="buttonLabelHolder">
+			<div id="buttonLabel" class="copyTextCTA" style="font-size: 16px; opacity: 1;">7500円分の特典</div>
+		</div>
+
+		<div id="googleLogoWhite" class="logoWhite" style="opacity: 1;"><img src="./logo_white.svg"></div>
+        
+        <div id="clickLayer"></div>
+        <div id="buttonReplay" style="display: block; opacity: 1;"></div>
+	</div>
+
+	<!-- GSAP -->
+	<script src="./TweenMax.min.js.ダウンロード"></script>
+	<!-- Studio Enabler -->
+	<script src="./Enabler_01_82.js.ダウンロード"></script>
+<!--
+ * Dynamic Content Enable code for Profile: 1050432
+ *
+ * The following code initializes the following dynamic variables for
+ * development testing and live serving of Fields associated to the above profile
+-->
+
+<!-- DynamicContent Start: HTML5 invocation code. -->
+<script type="text/javascript">
+
+// Dynamic Content variables and sample values
+    Enabler.setProfileId(1050432);
+    var devDynamicContent = {};
+
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1= [{}];
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0]._id = 0;
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Unique_ID = 1;
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Ad_Group_Dimension = 15526329138;
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Ad_Group_Name = "[HV]_JP_EN_GDN_RMKT_AdSense";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Message = "analytics_optimize";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Creative_Target = "i1";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Reporting_Label = "15526329138_jp_analytics_optimize_incentive";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_300x250_1 = "\u30D3\u30B8\u30CD\u30B9\u306F\u5909\u5316\u3057\u7D9A\u3051\u307E\u3059\u3002|\u5E83\u544A\u3082\u305D\u3046\u3042\u308B\u3079\u304D\u3067\u306F|\u306A\u3044\u3067\u3057\u3087\u3046\u304B? ";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_300x250_2 = "AdWords\u3067\u306F\u3001|\u5E83\u544A\u306E\u63B2\u8F09\u7D50\u679C\u304C\u5206\u304B\u308B\u306E\u3067\u3001|\u6539\u5584\u3067\u304D\u307E\u3059\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_300x250_3 = "AdWords \u3067|\u3042\u306A\u305F\u306E\u5E83\u544A\u306B\u9032\u5316\u3092\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].fontsize_300x250 = "18|18|18|16";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_160x600_1 = "\u30D3\u30B8\u30CD\u30B9\u306F|\u5909\u5316\u3057\u7D9A\u3051\u307E\u3059\u3002|\u5E83\u544A\u3082\u305D\u3046|\u3042\u308B\u3079\u304D\u3067\u306F|\u306A\u3044\u3067\u3057\u3087\u3046\u304B? ";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_160x600_2 = "AdWords\u3067\u306F\u3001|\u5E83\u544A\u306E\u63B2\u8F09\u7D50\u679C\u304C|\u5206\u304B\u308B\u306E\u3067\u3001|\u6539\u5584\u3067\u304D\u307E\u3059\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_160x600_3 = "AdWords \u3067|\u3042\u306A\u305F\u306E\u5E83\u544A\u306B|\u9032\u5316\u3092\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].fontsize_160x600 = "15|15|15|15";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_728x90_1 = "\u30D3\u30B8\u30CD\u30B9\u306F\u5909\u5316\u3057\u7D9A\u3051\u307E\u3059\u3002|\u5E83\u544A\u3082\u305D\u3046\u3042\u308B\u3079\u304D\u3067\u306F\u306A\u3044\u3067\u3057\u3087\u3046\u304B? ";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_728x90_2 = "AdWords\u3067\u306F\u3001\u5E83\u544A\u306E\u63B2\u8F09\u7D50\u679C\u304C|\u5206\u304B\u308B\u306E\u3067\u3001\u6539\u5584\u3067\u304D\u307E\u3059\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_728x90_3 = "AdWords \u3067\u3042\u306A\u305F\u306E\u5E83\u544A\u306B\u9032\u5316\u3092\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].fontsize_728x90 = "21|21|21|15";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_336x280_1 = "\u30D3\u30B8\u30CD\u30B9\u306F\u5909\u5316\u3057\u7D9A\u3051\u307E\u3059\u3002|\u5E83\u544A\u3082\u305D\u3046\u3042\u308B\u3079\u304D\u3067\u306F|\u306A\u3044\u3067\u3057\u3087\u3046\u304B? ";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_336x280_2 = "AdWords\u3067\u306F\u3001|\u5E83\u544A\u306E\u63B2\u8F09\u7D50\u679C\u304C\u5206\u304B\u308B\u306E\u3067\u3001|\u6539\u5584\u3067\u304D\u307E\u3059\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_336x280_3 = "AdWords \u3067|\u3042\u306A\u305F\u306E\u5E83\u544A\u306B\u9032\u5316\u3092\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].fontsize_336x280 = "18|18|18|16";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_300x600_1 = "\u30D3\u30B8\u30CD\u30B9\u306F\u5909\u5316\u3057\u7D9A\u3051\u307E\u3059\u3002|\u5E83\u544A\u3082\u305D\u3046\u3042\u308B\u3079\u304D\u3067\u306F|\u306A\u3044\u3067\u3057\u3087\u3046\u304B? ";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_300x600_2 = "AdWords\u3067\u306F\u3001|\u5E83\u544A\u306E\u63B2\u8F09\u7D50\u679C\u304C\u5206\u304B\u308B\u306E\u3067\u3001|\u6539\u5584\u3067\u304D\u307E\u3059\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].text_300x600_3 = "AdWords \u3067|\u3042\u306A\u305F\u306E\u5E83\u544A\u306B\u9032\u5316\u3092\u3002";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].fontsize_300x600 = "18|18|18|18";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].CTA_Text = "\u4ECA\u3059\u3050\u958B\u59CB";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].BG_Color = "#0f9d58";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].CSS_Name = "loadsprites_bar_chart.css";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].JS_Name = "icon_bar_chart.js";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Start_Time_Text_2 = 2.0;
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Start_Time_Icon_Animation = 0.0;
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Start_Time_Wipe = 5.0;
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Exit_URL = {};
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Exit_URL.Url = "https://www.google.co.jp/adwords/?channel=gdn&sourceid=awo&utm_source=jp-en-gdn-rh-tgr-rmba-tk&utm_medium=display&utm_campaign=awo&utm_content=tangram&subid=";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Sub_ID = "jp-en-gdn-rh-tgr-rmba-tk";
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Active = true;
+    devDynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Default = false;
+    Enabler.setDevDynamicContent(devDynamicContent);
+
+</script>
+
+<!--
+ * You may access the variables in the following manner
+ * AFTER the Studio Enabler is initialized.
+ * var Unique_ID = dynamicContent.Updated_Q315_Google_Tangram_Feed__Japan_Sheet1[0].Unique_ID;
+ * Note: be sure to use "dynamicContent", not "devDynamicContent"
+-->
+
+	<script src="./main.js.ダウンロード"></script>
+
+
+<script type="text/javascript" src="./icon_square_tiles.js.ダウンロード"></script></body></html>
